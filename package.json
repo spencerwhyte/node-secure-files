@@ -1,0 +1,39 @@
+{
+  "name": "secure-files",
+  "version": "1.0.0",
+  "description": "A tool for securing files using AES.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "secure-files": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerwhyte/node-secure-files.git"
+  },
+  "keywords": [
+    "secure",
+    "aes",
+    "api",
+    "key"
+  ],
+  "author": "Spencer Whyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerwhyte/node-secure-files/issues"
+  },
+  "homepage": "https://github.com/spencerwhyte/node-secure-files#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-secure-files": "^1.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
