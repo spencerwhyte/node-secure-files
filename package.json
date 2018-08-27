@@ -1,6 +1,6 @@
 {
   "name": "secure-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool for securing files using AES.",
   "main": "./lib/index.js",
   "scripts": {
