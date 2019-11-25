@@ -26,8 +26,6 @@
   },
   "homepage": "https://github.com/spencerwhyte/node-secure-files#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-secure-files": "^1.0.1",
     "mkdirp": "^0.5.1"
   },
   "devDependencies": {
