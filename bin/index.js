@@ -12,7 +12,7 @@ if (process.argv.length < 3) {
   }
 } else if (process.argv[2] === 'decrypt') {
   if (process.argv[3]) {
-    library.encrypt(process.argv[3]);
+    library.decrypt(process.argv[3]);
   } else {
     library.decryptAll();
   }
